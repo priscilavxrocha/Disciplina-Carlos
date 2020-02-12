@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>projeto_2</display-name>
+  <welcome-file-list>
+    <welcome-file>pages/index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FuncionarioController</display-name>
+    <servlet-name>FuncionarioController</servlet-name>
+    <servlet-class>br.com.curso.controller.FuncionarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FuncionarioController</servlet-name>
+    <url-pattern>/FuncionarioController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListarFuncionarioController</display-name>
+    <servlet-name>ListarFuncionarioController</servlet-name>
+    <servlet-class>br.com.curso.controller.ListarFuncionarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListarFuncionarioController</servlet-name>
+    <url-pattern>/ListarFuncionarioController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CadastrarFuncionarioController</display-name>
+    <servlet-name>CadastrarFuncionarioController</servlet-name>
+    <servlet-class>br.com.curso.controller.CadastrarFuncionarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CadastrarFuncionarioController</servlet-name>
+    <url-pattern>/CadastrarFuncionarioController</url-pattern>
+  </servlet-mapping>
+</web-app>
